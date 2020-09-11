@@ -13,11 +13,11 @@ BoardMember.prototype.approve = function() {
 }; 
 
 BoardMember.prototype.doCharity = function() { 
-  return 'I lie to help people'
+  return 'I like to help people'
 }; 
 
 BoardMember.prototype.releasePressStatement = function() { 
-  return 'You will see greate things from Scuber'
+  return 'You will see great things from Scuber'
 }; 
 
 BoardMember.prototype.sayHi = function() { 
