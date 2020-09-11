@@ -5,15 +5,15 @@ function BoardMember(name, homeState, training) {
 }
 
 BoardMember.prototype.veto = function() { 
-  console.log('No, I must disagree'); 
+  return 'No, I must disagree'
 }; 
 
 BoardMember.prototype.approve = function() {
-  console.log('You can do that!');
+  return 'You can do that!'
 }; 
 
 BoardMember.prototype.doCharity = function() { 
-  console.log('I lie to help people');
+  return 'I lie to help people'
 }; 
 
 BoardMember.prototype.releasePressStatement = function() { 
